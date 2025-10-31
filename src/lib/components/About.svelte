@@ -1,18 +1,18 @@
 <section id="about" class="bg-white py-16 md:py-24 dark:bg-gray-800">
 	<div class="container mx-auto px-4">
-		<div class="mb-12 text-center md:mb-16">
+		<div class="slide-up mb-12 text-center md:mb-16">
 			<h2 class="section-title">Tentang Kami</h2>
 			<div class="mx-auto h-1 w-24 bg-coffee-caramel"></div>
 		</div>
 
 		<div class="mx-auto grid max-w-6xl grid-cols-1 items-center gap-8 md:grid-cols-2 md:gap-12">
 			<!-- Image Side -->
-			<div class="order-2 md:order-1">
+			<div class="fade-in order-2 md:order-1">
 				<div class="relative">
 					<div
-						class="flex aspect-square items-center justify-center rounded-2xl bg-gradient-to-br from-coffee-light to-coffee-medium shadow-2xl"
+						class="flex aspect-square items-center justify-center rounded-2xl bg-gradient-to-br from-coffee-light to-coffee-medium shadow-2xl transition-transform duration-500 hover:scale-105"
 					>
-						<span class="text-9xl">🎭</span>
+						<span class="text-9xl transition-transform duration-500 hover:rotate-12">🎭</span>
 					</div>
 					<div
 						class="absolute -right-6 -bottom-6 -z-10 h-32 w-32 rounded-2xl bg-coffee-caramel"
@@ -21,7 +21,7 @@
 			</div>
 
 			<!-- Content Side -->
-			<div class="order-1 space-y-6 md:order-2">
+			<div class="slide-up order-1 space-y-6 md:order-2">
 				<h3
 					style="font-family: var(--font-family-display)"
 					class="text-2xl font-bold text-coffee-dark md:text-3xl dark:text-coffee-light"
@@ -42,11 +42,15 @@
 				</p>
 
 				<div class="grid grid-cols-2 gap-4 pt-4">
-					<div class="rounded-lg bg-coffee-cream p-4 dark:bg-gray-700">
+					<div
+						class="rounded-lg bg-coffee-cream p-4 transition-all duration-300 hover:scale-105 hover:shadow-lg dark:bg-gray-700"
+					>
 						<div class="text-3xl font-bold text-coffee-dark dark:text-coffee-light">50+</div>
 						<div class="text-sm text-gray-600 dark:text-gray-400">Varian Menu</div>
 					</div>
-					<div class="rounded-lg bg-coffee-cream p-4 dark:bg-gray-700">
+					<div
+						class="rounded-lg bg-coffee-cream p-4 transition-all duration-300 hover:scale-105 hover:shadow-lg dark:bg-gray-700"
+					>
 						<div class="text-3xl font-bold text-coffee-dark dark:text-coffee-light">1000+</div>
 						<div class="text-sm text-gray-600 dark:text-gray-400">Pelanggan Setia</div>
 					</div>
@@ -56,8 +60,8 @@
 
 		<!-- Values -->
 		<div class="mt-16 grid grid-cols-1 gap-6 md:mt-20 md:grid-cols-3">
-			<div class="card p-6 text-center">
-				<div class="mb-4 text-4xl">🌱</div>
+			<div class="card p-6 text-center transition-all duration-300 hover:scale-105">
+				<div class="mb-4 text-4xl transition-transform duration-300 hover:rotate-12">🌱</div>
 				<h4 class="mb-2 text-lg font-bold text-coffee-dark dark:text-coffee-light">
 					Berkelanjutan
 				</h4>
@@ -65,15 +69,15 @@
 					Mendukung petani lokal dan praktik ramah lingkungan
 				</p>
 			</div>
-			<div class="card p-6 text-center">
-				<div class="mb-4 text-4xl">❤️</div>
+			<div class="card p-6 text-center transition-all duration-300 hover:scale-105">
+				<div class="mb-4 text-4xl transition-transform duration-300 hover:rotate-12">❤️</div>
 				<h4 class="mb-2 text-lg font-bold text-coffee-dark dark:text-coffee-light">Kualitas</h4>
 				<p class="text-sm text-gray-600 dark:text-gray-400">
 					Hanya bahan terbaik untuk kepuasan Anda
 				</p>
 			</div>
-			<div class="card p-6 text-center">
-				<div class="mb-4 text-4xl">🤝</div>
+			<div class="card p-6 text-center transition-all duration-300 hover:scale-105">
+				<div class="mb-4 text-4xl transition-transform duration-300 hover:rotate-12">🤝</div>
 				<h4 class="mb-2 text-lg font-bold text-coffee-dark dark:text-coffee-light">Komunitas</h4>
 				<p class="text-sm text-gray-600 dark:text-gray-400">
 					Membangun kebersamaan dalam setiap kunjungan
