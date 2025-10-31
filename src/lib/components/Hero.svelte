@@ -16,10 +16,10 @@
 		></div>
 	</div>
 
-	<div class="relative z-10 container mx-auto px-4 py-12 md:py-20">
+	<div class="fade-in relative z-10 container mx-auto px-4 py-12 md:py-20">
 		<div class="mx-auto max-w-4xl text-center">
-			<!-- Hero Icon -->
-			<div class="animate-bounce-slow mb-6 md:mb-8">
+			<!-- Hero Icon - Tanpa animasi bounce -->
+			<div class="mb-6 transition-transform duration-300 hover:scale-110 md:mb-8">
 				<span class="text-6xl md:text-8xl">🎭</span>
 			</div>
 
@@ -48,7 +48,7 @@
 				</button>
 				<a
 					href="#about"
-					class="w-full rounded-lg border-2 border-coffee-dark px-6 py-3 text-center font-medium text-coffee-dark transition-all duration-300 hover:bg-coffee-dark hover:text-white sm:w-auto dark:border-coffee-light dark:text-coffee-light dark:hover:bg-coffee-light dark:hover:text-gray-900"
+					class="w-full rounded-lg border-2 border-coffee-dark px-6 py-3 text-center font-medium text-coffee-dark shadow-md transition-all duration-300 hover:bg-coffee-dark hover:text-white hover:shadow-xl sm:w-auto dark:border-coffee-light dark:text-coffee-light dark:hover:bg-coffee-light dark:hover:text-gray-900"
 				>
 					Tentang Kami
 				</a>
@@ -56,22 +56,28 @@
 
 			<!-- Features -->
 			<div class="mt-12 grid grid-cols-1 gap-6 sm:grid-cols-3 md:mt-16 md:gap-8">
-				<div class="p-4 text-center">
-					<div class="mb-3 text-3xl md:text-4xl">☕</div>
+				<div class="p-4 text-center transition-transform duration-300 hover:scale-105">
+					<div class="mb-3 text-3xl transition-transform duration-300 hover:rotate-12 md:text-4xl">
+						☕
+					</div>
 					<h3 class="mb-2 font-semibold text-coffee-dark dark:text-coffee-light">Kopi Premium</h3>
 					<p class="text-sm text-gray-600 dark:text-gray-400">
 						Biji kopi pilihan dari berbagai daerah
 					</p>
 				</div>
-				<div class="p-4 text-center">
-					<div class="mb-3 text-3xl md:text-4xl">🏠</div>
+				<div class="p-4 text-center transition-transform duration-300 hover:scale-105">
+					<div class="mb-3 text-3xl transition-transform duration-300 hover:rotate-12 md:text-4xl">
+						🏠
+					</div>
 					<h3 class="mb-2 font-semibold text-coffee-dark dark:text-coffee-light">Suasana Nyaman</h3>
 					<p class="text-sm text-gray-600 dark:text-gray-400">
 						Tempat yang hangat seperti di rumah
 					</p>
 				</div>
-				<div class="p-4 text-center">
-					<div class="mb-3 text-3xl md:text-4xl">🎨</div>
+				<div class="p-4 text-center transition-transform duration-300 hover:scale-105">
+					<div class="mb-3 text-3xl transition-transform duration-300 hover:rotate-12 md:text-4xl">
+						🎨
+					</div>
 					<h3 class="mb-2 font-semibold text-coffee-dark dark:text-coffee-light">Budaya Lokal</h3>
 					<p class="text-sm text-gray-600 dark:text-gray-400">
 						Mengangkat kearifan lokal Indonesia
@@ -81,19 +87,3 @@
 		</div>
 	</div>
 </section>
-
-<style>
-	@keyframes bounce-slow {
-		0%,
-		100% {
-			transform: translateY(0);
-		}
-		50% {
-			transform: translateY(-20px);
-		}
-	}
-
-	.animate-bounce-slow {
-		animation: bounce-slow 3s ease-in-out infinite;
-	}
-</style>

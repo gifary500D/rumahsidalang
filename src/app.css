@@ -1,37 +1,69 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;600;700&display=swap');
 
 @theme {
-  /* Coffee Colors */
-  --color-coffee-dark: #6b4423;
-  --color-coffee-medium: #8b5a3c;
-  --color-coffee-light: #d4a574;
-  --color-coffee-cream: #f5e6d3;
-  --color-coffee-caramel: #c17817;
-  
-  /* Font Families */
-  --font-family-sans: 'Inter', sans-serif;
-  --font-family-display: 'Playfair Display', serif;
+	/* Coffee Colors */
+	--color-coffee-dark: #6b4423;
+	--color-coffee-medium: #8b5a3c;
+	--color-coffee-light: #d4a574;
+	--color-coffee-cream: #f5e6d3;
+	--color-coffee-caramel: #c17817;
+
+	/* Font Families */
+	--font-family-sans: 'Inter', sans-serif;
+	--font-family-display: 'Playfair Display', serif;
 }
 
 @layer base {
-  body {
-    font-family: var(--font-family-sans);
-    @apply bg-coffee-cream dark:bg-gray-900 text-gray-900 dark:text-gray-100 transition-colors duration-300;
-  }
+	html {
+		scroll-behavior: smooth;
+	}
+
+	body {
+		font-family: var(--font-family-sans);
+		@apply bg-coffee-cream text-gray-900 transition-colors duration-300 dark:bg-gray-900 dark:text-gray-100;
+	}
 }
 
 @layer components {
-  .btn-primary {
-    @apply bg-coffee-dark hover:bg-coffee-medium text-white px-6 py-3 rounded-lg font-medium transition-all duration-300 transform hover:scale-105 active:scale-95;
-  }
-  
-  .section-title {
-    font-family: var(--font-family-display);
-    @apply text-3xl md:text-4xl font-bold text-coffee-dark dark:text-coffee-light mb-4;
-  }
-  
-  .card {
-    @apply bg-white dark:bg-gray-800 rounded-xl shadow-lg overflow-hidden transition-all duration-300 hover:shadow-2xl hover:-translate-y-1;
-  }
+	.btn-primary {
+		@apply transform rounded-lg bg-coffee-dark px-6 py-3 font-medium text-white shadow-md transition-all duration-300 hover:scale-105 hover:bg-coffee-medium hover:shadow-xl active:scale-95;
+	}
+
+	.section-title {
+		font-family: var(--font-family-display);
+		@apply mb-4 text-3xl font-bold text-coffee-dark md:text-4xl dark:text-coffee-light;
+	}
+
+	.card {
+		@apply overflow-hidden rounded-xl bg-white shadow-lg transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl dark:bg-gray-800;
+	}
+
+	.fade-in {
+		animation: fadeIn 0.6s ease-out;
+	}
+
+	.slide-up {
+		animation: slideUp 0.6s ease-out;
+	}
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+@keyframes slideUp {
+	from {
+		opacity: 0;
+		transform: translateY(30px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
 }
