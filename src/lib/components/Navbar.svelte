@@ -10,6 +10,7 @@
 	const navLinks = [
 		{ name: 'Beranda', href: '#home' },
 		{ name: 'Tentang', href: '#about' },
+		{ name: 'Tim Kami', href: '#founders' },
 		{ name: 'Menu', href: '#menu' },
 		{ name: 'Galeri', href: '#gallery' },
 		{ name: 'Kontak', href: '#contact' }
@@ -42,11 +43,11 @@
 			</div>
 
 			<!-- Desktop Menu -->
-			<div class="hidden items-center space-x-8 md:flex">
+			<div class="hidden items-center space-x-6 md:flex lg:space-x-8">
 				{#each navLinks as link}
 					<button
 						on:click={() => scrollToSection(link.href)}
-						class="font-medium text-gray-700 transition-colors hover:text-coffee-dark dark:text-gray-300 dark:hover:text-coffee-light"
+						class="text-sm font-medium text-gray-700 transition-colors hover:text-coffee-dark lg:text-base dark:text-gray-300 dark:hover:text-coffee-light"
 					>
 						{link.name}
 					</button>
