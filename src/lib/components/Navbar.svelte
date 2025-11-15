@@ -28,19 +28,26 @@
 >
 	<div class="container mx-auto px-4">
 		<div class="flex h-16 items-center justify-between md:h-20">
-			<!-- Logo -->
-			<div class="flex items-center space-x-2">
-				<span class="text-3xl">🎭</span>
-				<div>
-					<h1
-						style="font-family: var(--font-family-display)"
-						class="text-xl font-bold text-coffee-dark md:text-2xl dark:text-coffee-light"
-					>
-						Rumah Si Dalang
-					</h1>
-					<p class="hidden text-xs text-gray-600 md:block dark:text-gray-400">Kopi & Percakapan</p>
-				</div>
-			</div>
+		<!-- Logo -->
+<div class="flex items-center space-x-2">
+    <img 
+        src="/images/logo-rdl.jpeg" 
+        alt="Logo Rumah Si Dalang" 
+        class="h-15 w-15 rounded-full object-cover"
+    />
+
+    <div>
+        <h1
+            style="font-family: var(--font-family-display)"
+            class="text-xl font-bold text-coffee-dark md:text-2xl dark:text-coffee-light"
+        >
+            Rumah Si Dalang
+        </h1>
+        <p class="hidden text-xs text-gray-600 md:block dark:text-gray-400">
+            Kopi & Percakapan
+        </p>
+    </div>
+</div>
 
 			<!-- Desktop Menu -->
 			<div class="hidden items-center space-x-6 md:flex lg:space-x-8">
