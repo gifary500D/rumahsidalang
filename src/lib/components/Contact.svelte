@@ -120,34 +120,6 @@
 				{/each}
 			</div>
 		</div>
-
-		<!-- Newsletter -->
-		<div
-			class="rounded-2xl bg-gradient-to-br from-coffee-dark to-coffee-medium p-8 text-center shadow-2xl md:p-12"
-		>
-			<span class="mb-4 block text-5xl">📬</span>
-			<h3
-				style="font-family: var(--font-family-display)"
-				class="mb-4 text-2xl font-bold text-white drop-shadow-lg md:text-3xl"
-			>
-				Dapatkan Promo Spesial
-			</h3>
-			<p class="mx-auto mb-6 max-w-xl text-white/95 drop-shadow">
-				Daftarkan email Anda untuk mendapatkan info promo dan menu terbaru dari kami
-			</p>
-			<div class="mx-auto flex max-w-md flex-col gap-3 sm:flex-row">
-				<input
-					type="email"
-					placeholder="Email Anda"
-					class="flex-1 rounded-lg bg-white px-4 py-3 text-gray-900 placeholder-gray-500 shadow-md focus:ring-2 focus:ring-coffee-caramel focus:outline-none dark:bg-gray-700 dark:text-white"
-				/>
-				<button
-					class="rounded-lg bg-coffee-caramel px-6 py-3 font-medium whitespace-nowrap text-white transition-all duration-300 hover:scale-105 hover:bg-amber-600 hover:shadow-xl active:scale-95"
-				>
-					Daftar Sekarang
-				</button>
-			</div>
-		</div>
 	</div>
 </section>
 
@@ -161,12 +133,12 @@
 					<h3 style="font-family: var(--font-family-display)" class="text-xl font-bold">
 						Rumah Si Dalang
 					</h3>
-					<p class="text-sm text-white/70">Coffee & Eatery</p>
+					<p class="text-sm text-white/70">Kopi & Percakapan</p>
 				</div>
 			</div>
 
 			<div class="text-center md:text-right">
-				<p class="text-sm text-white/90">© 2025 Rumah Si Dalang. Seluruh hak cipta dilindungi.</p>
+				<p class="text-sm text-white/90">© 2021 Rumah Si Dalang. Seluruh hak cipta dilindungi.</p>
 				<p class="mt-1 text-xs text-white/70">Dibuat dengan ❤️ dan ☕ di Indonesia</p>
 			</div>
 		</div>

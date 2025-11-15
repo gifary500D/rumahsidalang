@@ -18,7 +18,7 @@
 	const founders: Founder[] = [
 		{
 			id: 1,
-			name: 'Budi Santoso',
+			name: 'Nau',
 			role: 'Co-Founder & CEO',
 			description:
 				'Pencinta kopi sejati dengan pengalaman 15 tahun di industri kuliner. Memimpin visi Rumah Si Dalang untuk melestarikan budaya kopi Indonesia.',
@@ -31,7 +31,7 @@
 		},
 		{
 			id: 2,
-			name: 'Siti Nurhaliza',
+			name: 'Naufal Nafriwan',
 			role: 'Co-Founder & Head Barista',
 			description:
 				'Juara kompetisi barista nasional. Menghadirkan inovasi dalam setiap cangkir kopi dengan sentuhan seni dan tradisi.',
@@ -39,12 +39,12 @@
 			social: {
 				instagram: '#',
 				linkedin: '#',
-				email: 'siti@rumahsidalang.com'
+				email: 'Naufal@rumahsidalang.com'
 			}
 		},
 		{
 			id: 3,
-			name: 'Andi Wijaya',
+			name: '',
 			role: 'Co-Founder & Creative Director',
 			description:
 				'Seniman wayang kontemporer yang menggabungkan tradisi dengan modernitas. Menciptakan identitas visual Rumah Si Dalang.',

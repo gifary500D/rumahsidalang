@@ -61,12 +61,12 @@
 		<!-- Values -->
 		<div class="mt-16 grid grid-cols-1 gap-6 md:mt-20 md:grid-cols-3">
 			<div class="card p-6 text-center transition-all duration-300 hover:scale-105">
-				<div class="mb-4 text-4xl transition-transform duration-300 hover:rotate-12">🌱</div>
+				<div class="mb-4 text-4xl transition-transform duration-300 hover:rotate-12">🎨</div>
 				<h4 class="mb-2 text-lg font-bold text-coffee-dark dark:text-coffee-light">
-					Berkelanjutan
+					Kreativitas
 				</h4>
 				<p class="text-sm text-gray-600 dark:text-gray-400">
-					Mendukung petani lokal dan praktik ramah lingkungan
+					Kreasi menu dan suasana yang unik khas Rumah Sidalang
 				</p>
 			</div>
 			<div class="card p-6 text-center transition-all duration-300 hover:scale-105">

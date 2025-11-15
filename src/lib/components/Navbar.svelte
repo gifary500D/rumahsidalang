@@ -38,7 +38,7 @@
 					>
 						Rumah Si Dalang
 					</h1>
-					<p class="hidden text-xs text-gray-600 md:block dark:text-gray-400">Coffee & Eatery</p>
+					<p class="hidden text-xs text-gray-600 md:block dark:text-gray-400">Kopi & Percakapan</p>
 				</div>
 			</div>
 
